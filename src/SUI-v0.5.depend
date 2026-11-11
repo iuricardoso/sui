@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1792029531 source:g:\meu drive\2. pesquisa\2026\fluxo contínuo\versões\oosui\sui-v0.5\app.rc
+
+1792026974 source:g:\meu drive\2. pesquisa\2026\fluxo contínuo\versões\oosui\sui-v0.5\main.c
+	"sui.h"
+
+1792029531 g:\meu drive\2. pesquisa\2026\fluxo contínuo\versões\oosui\sui-v0.5\sui.h
+
+1792029531 source:g:\meu drive\2. pesquisa\2026\fluxo contínuo\versões\oosui\sui-v0.5\oosui.cpp
+	"oosui.hpp"
+
+1792029531 g:\meu drive\2. pesquisa\2026\fluxo contínuo\versões\oosui\sui-v0.5\oosui.hpp
+	<windows.h>
+	<dwmapi.h>
+	<gdiplus.h>
+	<uxtheme.h>
+	<commctrl.h>
+	<shellapi.h>
+	<string>
+	<vector>
+	<algorithm>
+
+1792029531 source:g:\meu drive\2. pesquisa\2026\fluxo contínuo\versões\oosui\sui-v0.5\sui.cpp
+	"sui.h"
+	"oosui.hpp"
+	<map>
+	<string>
+	<vector>
+	<cstdio>
+	<cstdarg>
+
+1793993192 source:g:\meu drive\2. pesquisa\2026\fluxo contínuo\versões\oosui\sui-v0.5\samples\basic.c
+	<sui.h>
+
+1793993121 source:g:\meu drive\2. pesquisa\2026\fluxo contínuo\versões\oosui\sui-v0.5\samples\table.cpp
+	<string>
+
+1792025672 source:g:\meu drive\www\sui\src\rsc\app.rc
+
+1794413199 source:g:\meu drive\www\sui\src\samples\table.cpp
+	<string>
+
+1794415096 source:g:\meu drive\www\sui\src\src\oosui.cpp
+	"oosui.hpp"
+
+1794414944 g:\meu drive\www\sui\src\include\oosui.hpp
+	<windows.h>
+	<dwmapi.h>
+	<gdiplus.h>
+	<uxtheme.h>
+	<commctrl.h>
+	<shellapi.h>
+	<string>
+	<vector>
+	<algorithm>
+
+1792026552 source:g:\meu drive\www\sui\src\src\sui.cpp
+	"sui.h"
+	"oosui.hpp"
+	<map>
+	<string>
+	<vector>
+	<cstdio>
+	<cstdarg>
+
+1792026526 g:\meu drive\www\sui\src\include\sui.h
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SUI-v0.5" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="SUI/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SUI-v0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgdiplus -ldwmapi -lgdi32 -luser32 -luxtheme" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SUI-v0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lgdiplus -ldwmapi -lgdi32 -luser32 -luxtheme" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="libsui/include" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+		</Linker>
+		<Unit filename="app.manifest.xml" />
+		<Unit filename="app.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="libsui/include/oosui.hpp">
+			<Option virtualFolder="SUI/" />
+		</Unit>
+		<Unit filename="libsui/include/sui.h">
+			<Option virtualFolder="SUI/" />
+		</Unit>
+		<Unit filename="libsui/src/oosui.cpp">
+			<Option virtualFolder="SUI/" />
+		</Unit>
+		<Unit filename="libsui/src/sui.cpp">
+			<Option virtualFolder="SUI/" />
+		</Unit>
+		<Unit filename="samples/table.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
